@@ -1,4 +1,4 @@
-This is a [Next.js](secure)
+This is a (secure)[Next.js] main project
 
 ## Getting Started
 
