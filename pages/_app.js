@@ -1,7 +1,19 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+// add bootstrap css
+import "bootstrap/dist/css/bootstrap.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+    return (
+        <>
+            <Head>
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                />
+            </Head>
+            return <Component {...pageProps} />;
+        </>
+    );
 }
 
-export default MyApp
+export default MyApp;
