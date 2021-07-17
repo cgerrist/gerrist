@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 // add bootstrap css
 import "bootstrap/dist/css/bootstrap.css";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
     return (
@@ -11,7 +12,7 @@ function MyApp({ Component, pageProps }) {
                     content="width=device-width, initial-scale=1"
                 />
             </Head>
-            return <Component {...pageProps} />;
+            <Component {...pageProps} />;
         </>
     );
 }
